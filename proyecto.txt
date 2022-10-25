@@ -1,1 +1,17 @@
-nombre del proyecto
+DIEGO¨S KITCHEN (blog de cocina)
+
+Paleta de colores: neutros, blancos y negros
+
+requisitos: 
+-recetas de entradas, platos principales, postres, panes, salsas, bebidas (4 o 5 de cada receta)
+
+- foto de cada comida y de mi diego (datos de estudios también)
+
+-iconos para los ingredientes de cada comida
+
+-Nombre de cada comida y de que está hecha
+
+-Ver fuentes de letras para la paginá
+
+-Ver como hacer los anillos del cuaderno del recetario
+
