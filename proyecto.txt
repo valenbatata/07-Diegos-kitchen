@@ -15,3 +15,16 @@ requisitos:
 
 -Ver como hacer los anillos del cuaderno del recetario
 
+COLORES
+
+BACKGROUN 1
+
+F8EDE3
+
+BACKGROUND 2
+
+EABF9F
+
+BACKGROUND 3
+
+B7CADB
