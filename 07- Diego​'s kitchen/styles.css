@@ -1,7 +1,12 @@
 
-
-body{
-    background-image: url(/asests/diego.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+header{
+    background-color:#B7CADB;
 }
+#titulo{
+   text-align: center;
+}
+
+#back1{
+    background-color: #000042;
+}
+
