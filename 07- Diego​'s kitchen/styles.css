@@ -1,12 +1,41 @@
-
-header{
-    background-color:#B7CADB;
+body{
+    background-color:#7ea8cc;
 }
 #titulo{
    text-align: center;
+ color: aliceblue;
 }
 
 #back1{
     background-color: #000042;
 }
 
+.chef{
+    width: 400px;
+}
+
+.rabas{
+    width: 200px;
+    margin-left: 200px;
+}
+
+#recetario{
+    background-image: url(/asests/cuaderno.webp);
+    margin-left: 1000px;
+
+}
+
+
+
+.paella{
+    width: 200px;
+    margin-left: 200px;
+}
+
+.lomo{
+    width: 200px;
+}
+
+.pulpo{
+    width: 200px;
+}
