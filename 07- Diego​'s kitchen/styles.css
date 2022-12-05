@@ -1,17 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&family=Merriweather:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&family=La+Belle+Aurore&family=Merriweather:ital@1&display=swap');
 body{
     background-color:#7ea8cc;
+
 }
 #titulo{
    text-align: center;
  color: aliceblue;
+ font-family: 'DM Serif Display', serif;
+
+    font-family: 'Merriweather', serif;
 }
 
 #back1{
     background-color: #000042;
+    
+}
+
+#parrafo{
+    font-family: 'DM Serif Display', serif;
+
+    font-family: 'La Belle Aurore', cursive;
+
+    font-family: 'Merriweather', serif;
+
+    margin-top: 2%;
+
+   /* margin-right: 40%;*/
 }
 
 .chef{
-    width: 400px;
+    width: 10%;
 }
 
 .rabas{
@@ -19,9 +38,13 @@ body{
     margin-left: 200px;
 }
 
+#rabasparra{
+    margin-right: 10%;
+}
+
 #recetario{
     background-image: url(/asests/cuaderno.webp);
-    margin-left: 1000px;
+    margin-right: 10px;
 
 }
 
@@ -32,10 +55,18 @@ body{
     margin-left: 200px;
 }
 
+#paellaparra{
+    margin-right: 2%;
+}
+
 .lomo{
     width: 200px;
 }
 
 .pulpo{
     width: 200px;
+}
+
+.boton{
+    color:#000042;
 }
