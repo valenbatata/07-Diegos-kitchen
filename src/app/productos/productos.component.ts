@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./productos.component.css']
 })
 export class ProductosComponent {
-
+  productoss=[1,2,3,4]
+  info=[
+   "asdasfafsd" ,
+    "vregfdbgdf",
+    "fdvgretgdf",
+    "sdfkjdkfojgdf"
+  ]
 }
