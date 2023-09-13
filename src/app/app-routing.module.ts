@@ -1,10 +1,10 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { ContactosComponent } from './contactos/contactos.component';
-import { GaleriaComponent } from './galeria/galeria.component';
-import { InicioComponent } from './inicio/inicio.component';
-import { NosotrosComponent } from './nosotros/nosotros.component';
-import { ProductosComponent } from './productos/productos.component';
+import { ContactosComponent } from './secciones/contactos/contactos.component';
+import { GaleriaComponent } from './secciones/galeria/galeria.component';
+import { InicioComponent } from './secciones/inicio/inicio.component';
+import { NosotrosComponent } from './secciones/nosotros/nosotros.component';
+import { ProductosComponent } from './secciones/productos/productos.component';
 
 const routes: Routes = [
   {

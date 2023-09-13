@@ -1,0 +1,94 @@
+<br>
+<br>
+<br>
+
+<div class="container text-center">
+  <div class="row align-items-center">
+    <div class="col">
+      <img src="../../assets/servicio1.jpg" alt="" style="border-radius: 50%;" (click)="mostrar1=!mostrar1">
+      <h2>SERVICIOS</h2>
+    </div>
+    <div class="col">
+      <img src="../../assets/entradass.jpg" alt="" style="border-radius: 50%;" (click)="mostrar2=!mostrar2">
+      <H2>ENTRADAS</H2>
+    </div>
+    <div class="col">
+      <br>
+      <img src="../../assets/pp.jpg" alt="" style="border-radius: 50%;" (click)="mostrar3=!mostrar3">
+
+      <h2>PLATO PRINCIPAL</h2>
+    </div>
+
+    <div class="col">
+      <img src="../../assets/postre.jpg" alt="" style="border-radius: 50%;" (click)="mostrar4=!mostrar4">
+      <h2>POSTRES</h2>
+    </div>
+    <br>
+    <br>
+    <div class="col">
+      <img src="../../assets/guarnicion.jpg" alt="" style="border-radius: 50%;" (click)="mostrar5=!mostrar5">
+      <h2>GUARNICIÓN</h2>
+    </div>
+  </div>
+</div>
+
+<!--Servicio (producto)-->
+
+<div class="container px-4 text-center" *ngIf="mostrar1">
+  <div class="row gx-5">
+    <div class="col" *ngFor="let producto of productoss">
+      <div class="p-3">
+        <div class="card" style="width: 18rem;">
+          <img src="../../assets/catering{{producto}}.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">{{titulo[producto-1]}}</h5>
+            <p class="card-text">{{info[producto-1]}}
+            </p>
+            <a href="#" class="btn btn-primary">Saber más</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!--Entradas-->
+
+<div class="container px-4 text-center" *ngIf="mostrar2">
+  <div class="row gx-5">
+    <div class="col" *ngFor="let entrada of entradass">
+      <div class="p-3">
+        <div class="card" style="width: 18rem;">
+          <img src="../../../assets/entrada{{entrada}}.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">{{tituloEntrada[entrada-1]}}</h5>
+            <p class="card-text">
+              {{infoEntrada[entrada-1]}}
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--Plato principal-->
+
+<div class="container px-4 text-center" *ngIf="mostrar3">
+  <div class="row gx-5">
+    <div class="col" *ngFor="let principal of platoPrinci">
+      <div class="p-3">
+        <div class="card" style="width: 18rem;">
+          <img src="../../../assets/principal{{principal}}.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title"></h5>
+            <p class="card-text">
+
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

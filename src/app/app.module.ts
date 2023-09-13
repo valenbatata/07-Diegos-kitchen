@@ -3,14 +3,15 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HeaderComponent } from './header/header.component';
+import { ContactosComponent } from './secciones/contactos/contactos.component';
+import { FooterComponent } from './secciones/footer/footer.component';
+import { GaleriaComponent } from './secciones/galeria/galeria.component';
+import { HeaderComponent } from './secciones/header/header.component';
+import { InicioComponent } from './secciones/inicio/inicio.component';
+import { NosotrosComponent } from './secciones/nosotros/nosotros.component';
+import { ProductosComponent } from './secciones/productos/productos.component';
 
-import { FooterComponent } from './footer/footer.component';
-import { InicioComponent } from './inicio/inicio.component';
-import { NosotrosComponent } from './nosotros/nosotros.component';
-import { GaleriaComponent } from './galeria/galeria.component';
-import { ProductosComponent } from './productos/productos.component';
-import { ContactosComponent } from './contactos/contactos.component';
+
 
 @NgModule({
   declarations: [
