@@ -1,2 +1,20 @@
-
-
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">Servicio</th>
+      <th scope="col">Nombre</th>
+      <th scope="col">Descripción</th>
+      <th scope="col">Calificación</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let produ of productos1">
+      <td scope="row" >
+        <img src="../../assets/catering{{produ}}.jpg" class="img-thumbnail" alt="..." >
+      </td>
+      <td>{{titulo[produ-1]}}</td>
+      <td>{{info[produ-1]}}</td>
+      <td><img src="../../../assets/clasificacion-de-estrellas.png" alt=""  width="80" height="80"></td>
+    </tr>
+  </tbody>
+</table>

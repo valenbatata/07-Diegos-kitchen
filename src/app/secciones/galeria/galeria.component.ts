@@ -45,5 +45,59 @@ export class GaleriaComponent {
   /*Plato Principal */
 platoPrinci=[1, 2, 3, 4]
 
+tituloPrinci=[
+"Solomillo glaseado con romero y arándanos",
+"Bife a la parrilla con ensalada de repollo y tomates",
+"Carne en salsa de cebolla verde",
+"Carne a la parrilla con verduras frescas"
+]
+
+infoPrinci=[
+  "Una delicia gourmet que combina la ternura del solomillo con el sabor intenso del glaseado de vino tinto y el toque fresco de los arándanos. Se sirve sobre un cremoso puré de papas.",
+  "Un plato clásico y sencillo que consiste en un jugoso bife de ternera cocinado al punto, acompañado de una ensalada fresca y crujiente de repollo y tomates cherry. Ideal para disfrutar al aire libre.",
+  "Un plato sabroso y tierno que consiste en un trozo de carne de res bañado en una salsa espesa y brillante de cebolla verde. La carne está cocinada a punto medio y tiene un centro rosado. Se puede acompañar con arroz o verduras.",
+  "Un plato sencillo pero delicioso, que combina una jugosa pieza de carne asada con unas rodajas de vegetales verdes, crujientes y saludables. Un toque de tomate le da color y sabor al conjunto."
+
+]
+
+/*Postres */
+postress=[1,2,3,4]
+
+tituloPostre=[
+  "Pastel de chocolate con cereza y crema batida",
+  " Mini cheesecakes con frambuesa y menta",
+  "Cupcakes de terciopelo rojo y vainilla con cerezas y chispas",
+  "Cheesecake con compota de frutos rojos y menta"
+
+
+]
+ infoPostre=[
+   " Un delicioso postre de chocolate oscuro con una cereza roja en el centro. El pastel está servido en un plato blanco con un diseño de chocolate y cuatro montones de crema batida.",
+
+   "Unos pequeños y deliciosos pasteles de queso con una base de galleta. Los pasteles están decorados con crema batida, una frambuesa y una hoja de menta. Los pasteles están dispuestos en una bandeja dorada con un borde de encaje.",
+   "Unos ricos y esponjosos cupcakes de dos sabores diferentes. Los de terciopelo rojo tienen un glaseado blanco y una cereza roja. Los de vainilla tienen un glaseado blanco y una chispa dorada. Los cupcakes están en una bandeja blanca sobre una mesa con una planta y un cartel que dice ¨ile¨.",
+   "Un cremoso y suave pastel de queso con una capa de frutos rojos encima. El pastel tiene una base de galleta y está acompañado de una hoja de menta. El pastel está en un plato blanco con un fondo borroso."
+  ]
+
+/*Guarnicion */
+
+guarniss=[1,2,3,4]
+
+tituloGuarnis=[
+  "Bocaditos de queso y pan tostado",
+  "Cucharitas de guacamole y nachos",
+  "Albóndiga de queso con salsa de hierbas",
+  "Mini quiches de queso y verduras"
+]
+
+infoGuarnis=[
+  "Estos deliciosos bocaditos son ideales para acompañar una bebida o como entrada. Están hechos con pan de molde, queso crema y queso rallado, y se hornean hasta que estén dorados y crujientes. Se sirven con palillos y una ramita de perejil para darles un toque de color.",
+
+  "Estas cucharitas son una forma original y divertida de servir el guacamole, una salsa típica de México hecha con aguacate, cebolla, tomate, limón y cilantro. Cada cucharita lleva una porción de guacamole y un nacho crujiente y sabroso. Son perfectas para compartir en una fiesta o reunión.",
+
+  "Esta albóndiga de queso es un plato suave y esponjoso que se deshace en la boca. Está hecha con queso crema, huevo y harina, y se cocina al vapor. Se sirve con una salsa de hierbas aromáticas y caldo de pollo, que le da un sabor delicioso y fresco. Es una receta fácil y rápida de preparar.",
+
+  "Estas mini quiches son una opción deliciosa y nutritiva para el desayuno o el brunch. Están hechas con masa de hojaldre, huevos, queso, leche y verduras picadas, como cebolla, pimiento, zanahoria y espinaca. Se hornean en moldes individuales hasta que estén doradas y firmes. Se pueden comer calientes o frías, y son ideales para llevar."
+]
 }
 

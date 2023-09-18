@@ -52,7 +52,6 @@
   </div>
 </div>
 
-
 <!--Entradas-->
 
 <div class="container px-4 text-center" *ngIf="mostrar2">
@@ -82,9 +81,50 @@
         <div class="card" style="width: 18rem;">
           <img src="../../../assets/principal{{principal}}.jpg" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title"></h5>
+            <h5 class="card-title">{{tituloPrinci[principal-1]}}</h5>
             <p class="card-text">
+              {{infoPrinci[principal-1]}}
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
+<!--Postres-->
+
+<div class="container px-4 text-center" *ngIf="mostrar4">
+  <div class="row gx-5">
+    <div class="col" *ngFor="let postre of postress">
+      <div class="p-3">
+        <div class="card" style="width: 18rem;">
+          <img src="../../../assets/postre{{postre}}.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">{{tituloPostre[postre-1]}}</h5>
+            <p class="card-text">
+              {{infoPostre[postre-1]}}
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!--Guarniciones-->
+
+<div class="container px-4 text-center" *ngIf="mostrar5">
+  <div class="row gx-5">
+    <div class="col" *ngFor="let guarnicion of guarniss">
+      <div class="p-3">
+        <div class="card" style="width: 18rem;">
+          <img src="../../../assets/guarni{{guarnicion}}.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">{{tituloGuarnis[guarnicion-1]}}</h5>
+            <p class="card-text">
+            {{infoGuarnis[guarnicion-1]}}
             </p>
           </div>
         </div>
